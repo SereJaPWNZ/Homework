@@ -1,7 +1,0 @@
-FIO: .... Sergey ....
-age: 2?
-pets: 1
-salary: 400 dollars
-*
-
-
