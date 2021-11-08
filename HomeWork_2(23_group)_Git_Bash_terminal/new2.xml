@@ -5,3 +5,8 @@
 	<field name="age">2?</field>
 	<field name="pets">1</field>
 	<field name="salary">400</field>
+	<field name="Любимый фильм">книга Илая"</field>
+        <field name="любимый сериал">острые козырьки"</field>
+        <field name="любимая еда">вкусная"</field>
+        <field name="любимое время года">лето"</field>
+        <field name="сторона которую хотели бы посетить">возможно, левая"</field>
