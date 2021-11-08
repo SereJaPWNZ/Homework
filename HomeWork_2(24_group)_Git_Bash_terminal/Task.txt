@@ -7,16 +7,14 @@ GitHub. HW_1
 - SQL
 - Charles
 - Mobile testing
-	git branch Postman
-		   Jmeter 
-		   CheckLists 
-	           Bag_Reports 
-		   SQL 
-		   Charles
-		   Mobile_testing
+	git branch Postman 
+	git branch Jmeter 
+	git branch CheckLists 
+	git branch Bag_Reports 
+	git branch SQL 
+	git branch Charles 
+	git branch Mobile_testing
 2. Запушить все ветки на внешний репозиторий
-	git add .
-	git commit -m "All branch"
 	git push --all
 3. В ветке Bag Reports сделать текстовый документ со структурой баг репорта
 4. Запушить структуру багрепорта на внешний репозиторий
