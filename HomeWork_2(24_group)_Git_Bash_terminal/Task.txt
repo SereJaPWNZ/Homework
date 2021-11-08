@@ -8,17 +8,43 @@ GitHub. HW_1
 - Charles
 - Mobile testing
 	git branch Postman 
+	git checkout Postman /// удаляю все файлы через файловый менеджер
 	git branch Jmeter 
 	git branch CheckLists 
 	git branch Bag_Reports 
 	git branch SQL 
 	git branch Charles 
 	git branch Mobile_testing
+	
 2. Запушить все ветки на внешний репозиторий
 	git push --all
 3. В ветке Bag Reports сделать текстовый документ со структурой баг репорта
+	git checkout Bag_Reports
+	vim bag_reports.txt
+	i
+	ID:
+	Project:
+	Issue Type:
+	Summary:
+	Precondition:
+	STR:
+	Actual Results:
+	Expected Results:
+	Reporter:
+	Priority:
+	Severity:
+	Environment:
+	Attachment:
+	esc
+	:wq
+	
 4. Запушить структуру багрепорта на внешний репозиторий
+	git add .
+	git commit -m "Add bag_reports.txt"
+	git push --set-upstream origin Bag_Reports
 5. Вмержить ветку Bag Reports в Main
+	git checkout master
+	git merge Bag_Reports
 6. Запушить main на внешний репозиторий.
 7. В ветке CheckLists набросать структуру чек листа.
 8. Запушить структуру на внешний репозиторий
