@@ -1,8 +1,8 @@
 -- Подключится к 
 -- Host: 159.69.151.133
 -- Port: 5056
--- DB: qa_db_2
--- User: user_22_x
+-- DB: qa_ddl_24_199
+-- User: user_24_199
 -- Pass: 123
 
 
